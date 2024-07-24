@@ -4,8 +4,8 @@
 local players = game:GetService("Players")
 local runService = game:GetService("RunService")
 local heartbeat = runService.Heartbeat
-local Signal = require(script.Parent.Signal)
-local Janitor = require(script.Parent.Janitor)
+local Signal = require(script.Parent.Parent.Signal)
+local Janitor = require(script.Parent.Parent.Janitor)
 
 
 

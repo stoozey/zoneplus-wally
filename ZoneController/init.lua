@@ -4,9 +4,9 @@ local WHOLE_BODY_DETECTION_LIMIT = 729000 -- This is roughly the volume where Re
 
 
 -- LOCAL
-local Janitor = require(script.Parent.Parent.Janitor)
-local Enum_ = require(script.Parent.Parent.Enum)
-local Signal = require(script.Parent.Parent.Signal)
+local Janitor = require(script.Parent.Janitor)
+local Enum_ = require(script.Parent.Enum)
+local Signal = require(script.Parent.Signal)
 local Tracker = require(script.Tracker)
 local CollectiveWorldModel = require(script.CollectiveWorldModel)
 local enum = Enum_.enums
